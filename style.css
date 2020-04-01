@@ -1,0 +1,118 @@
+html{
+    box-sizing: border-box;
+  }
+*, *:after, *:before{
+    box-sizing: inherit;
+  }
+.container {
+    display: flex;
+    background-color: mistyrose;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .profile{
+    flex-basis: 25%;
+    color: darkgrey;
+  }
+  .resume{
+      /*padding: 25px 30px;*/
+    flex-basis: 72%;
+    background-color:lightblue;
+  }
+  .profile-text{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 50px;
+    color: grey;
+  }
+  .profile-photo{
+    height: 400px;
+    background-image: url(https://sun9-65.userapi.com/c845122/v845122732/13ce34/A8ySQF3OsnE.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .contacts-text{
+    color:grey;
+    padding-left: 24px;
+    line-height: 20px;
+  }
+  h1{
+    padding: 12px;
+    text-align:center;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+  }
+  h2{
+    padding-bottom:12px;
+    text-align:center;
+    font-size: 14px;
+    color: darkgrey;
+  }
+  h3{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  h4{
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 5px;
+  }
+  .contacts-title{
+    color: grey;
+    margin-bottom: 13px;
+  }
+  .contacts-item{
+    padding-bottom: 24px;
+    border-bottom: 1px silver dashed;
+  }
+  adress{
+    font-style: normal;
+  }
+  .experince{
+    border-bottom: 1px dashed silver;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  p{
+      font-size: 14px;
+      margin:10px;
+      line-height: 1.5;
+  }
+  .education, .english, .skills, .hobby{
+    border-bottom: 1px dashed silver;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  dl{
+      margin: 10px;
+      font-size: 14px;
+    line-height: 24px;
+    color: black;
+  }
+  li{
+      line-height: 1.5;
+  }
+  .dt{
+    font-weight: bold;
+  }
+  .mining{
+      height: 10%;
+      float:right;
+      padding-right: 20px;
+      padding-bottom: 40px;
+  }
+  .frontend{
+    float:right;
+    height: 200px;
+    padding-right: 20px;
+  }
+
+  
